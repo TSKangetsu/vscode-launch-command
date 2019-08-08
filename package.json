@@ -1,10 +1,11 @@
 {
+	"publisher": "TSKG",
 	"name": "launch-command",
 	"displayName": "launch command",
 	"description": "run a shell in terminal before",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.35.0"
+		"vscode": "^1.36.0"
 	},
 	"categories": [
 		"Other"
@@ -14,10 +15,10 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [
+		"keybindings": [
 			{
 				"command": "launch-command",
-				"title": "launch-command: start to launch shell"
+				"key": "f6"
 			}
 		]
 	},
